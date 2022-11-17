@@ -32,7 +32,7 @@ export default function SignIn() {
                             id="email"
                             value={email}
                             onChange={onChange} 
-                            placeHolder="Email address"
+                            placeholder="Email address"
                             className="mb- 6 w-full px-4 py-2 text-xl text-gray-700 bg-white border-gray-300 rounded transition ease-in-out" 
                         />
 
@@ -42,7 +42,7 @@ export default function SignIn() {
                             id="password"
                             value={password}
                             onChange={onChange} 
-                            placeHolder="Password"
+                            placeholder="Password"
                             className="w-full px-4 py-2 text-xl text-gray-700 bg-white border-gray-300 rounded transition ease-in-out" 
                         />
                         {showPassword ? (
